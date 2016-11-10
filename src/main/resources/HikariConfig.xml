@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="config.jdbcUrl">jdbc:mysql://localhost/bankdb</entry>
+	<entry key="config.username">root</entry>
+	<entry key="config.password">1234</entry>
+	<entry key="config.cachePreparedStatments">true</entry>
+	<entry key="config.preparedStatementCache">250</entry>
+	<entry key="config.preparedStatementCacheSqlLimit">2048</entry>
+	<entry key="config.useServerPrepStatements">true</entry>
+	<entry key="config.testQuery">SELECT 1</entry>
+	
+	<entry key="dataSource.minimumIdle">20</entry>
+	<entry key="dataSource.maximumPoolSize">30</entry>
+	<entry key="dataSource.DataSourceClassName">com.mysql.jdbc.jdbc2.optional.MysqlDataSource</entry>
+	<entry key="dataSource.port">3306</entry>
+	<entry key="dataSource.databaseName">bankdb</entry>
+	<entry key="dataSource.user">root</entry>
+	<entry key="dataSource.password">1234</entry>
+</properties>
